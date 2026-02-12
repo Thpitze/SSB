@@ -1,6 +1,7 @@
 # Only publish SSB_dev; everything else is local
 /*
 !/SSB_dev/
+!/SSB_dev/**        # allow files under SSB_dev
 !/.gitignore
 
 # never commit local config / tokens / deps inside dev folder
