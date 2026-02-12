@@ -1,0 +1,11 @@
+# Only publish SSB_dev; everything else is local
+/*
+!/SSB_dev/
+!/.gitignore
+
+# never commit local config / tokens / deps inside dev folder
+SSB_dev/data.json
+SSB_dev/**/data.json
+SSB_dev/node_modules/
+SSB_dev/docs/
+Doc/OAuth/
